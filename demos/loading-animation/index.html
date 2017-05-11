@@ -159,7 +159,8 @@
 
             var mixer = mixitup(containerEl, {
                 animation: {
-                    effects: 'fade scale stagger(50ms)' // Set a 'stagger' effect for the loading animation
+					duration: 5000,
+                    effects: 'fade scale stagger(10000ms)' // Set a 'stagger' effect for the loading animation
                 },
                 load: {
                     filter: 'none' // Ensure all targets start from hidden (i.e. display: none;)
@@ -179,6 +180,7 @@
 
                     mixer.configure({
                         animation: {
+							duration: 1500,
                             effects: 'fade scale'
                         }
                     });

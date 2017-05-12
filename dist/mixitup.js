@@ -9632,7 +9632,8 @@
                 // Opposite of above - apply translate after
                 // other transform
 
-                transformValues.push('translate(' + moveData.posOut.x + 'px, ' + moveData.posOut.y + 'px)');
+                //transformValues.push('translate(' + moveData.posOut.x + 'px, ' + moveData.posOut.y + 'px)');
+                transformValues.push('translate(' + 0 + 'px, ' + 0 + 'px)');
             }
 
             // Apply transforms
